@@ -17,4 +17,10 @@ One way that these solutions can assist developers is by using:
 * use of constraints
 
 ## Release history
-1.0 First suitable launch
+0.1.1 Bugfixes
+  * Bugfix:
+  * The four_text was corrected to receive the default holo_green of the other text views when the keyboard is used.
+  * Updated:
+  * The receipt of any other R.id other than the 5 text views, in this case, the background, was modified to receive and remain in Color.WHITE.
+
+0.1.0 First suitable launch
