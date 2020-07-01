@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
             // Boxes using Android color resources for background
             R.id.box_three_text -> view.setBackgroundResource(android.R.color.holo_green_light)
-            R.id.box_three_text -> view.setBackgroundResource(android.R.color.holo_green_light)
+            R.id.box_four_text -> view.setBackgroundResource(android.R.color.holo_green_light)
             R.id.box_five_text -> view.setBackgroundResource(android.R.color.holo_green_light)
 
             // Boxes using custom colors for background
@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
                                 box_three_text.setBackgroundColor(Color.WHITE); box_four_text.setBackgroundColor(Color.WHITE);
                                 box_five_text.setBackgroundColor(Color.WHITE)}
 
-            else -> view.setBackgroundColor(Color.LTGRAY)
+            else -> view.setBackgroundColor(Color.WHITE)
         }
 
     }
